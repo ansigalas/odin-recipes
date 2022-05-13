@@ -3,18 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <title>The Odin Project - Project: Recipes</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Reggae+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1><strong>Japanese Recipes</strong></h1>
-        <h2><em>That aren't just sushi</em></h2>
-        <br>
-        <img src="images/recipe-site-banner.jpg" alt="Website banner - A Japanese man and a woman are eating drawn as cartoons">
-        <br>
-        <em><h2>Try out the following!</h2></em>
-        <strong><ul style="font-size:larger;">
-            <a href="./recipes/bbq-salmon.html"><li>Barbecued salmon in wasabi and soy</li></a>
-            <a href="./recipes/chicken-soba.html"><li>Sake-poached chicken with soba noodles</li></a>
-            <a href="./recipes/crab-rice.html"><li>Spanner crab rice with edamame and tobiko</li></a>
-        </ul></strong>
+        <div id="main-container">
+            <div id="header-main">
+                <div id="title">
+                    <h1 id="website-title">Japanese Recipes</h1>
+                    <h2 id="website-subtitle">That aren't just sushi</h2>
+                </div>
+                <div id="main-image">
+                    <img id="pic-banner" src="images/recipe-site-banner.jpg" alt="Website banner - A Japanese man and a woman are eating drawn as cartoons">
+                </div>
+            </div>
+            <br>                
+            <h2 id="h2-main-page">Try out the following!</h2>
+            <div id="recipe-select">
+                    <div class="recipe-wrap" id="recipe1-wrap">
+                        <img src="./images/bbq-salmon.jpg" alt="BBQ salmon recipe picture" class="img-card">
+                        <p class="txt-card">Barbecued salmon in wasabi and soy</p>
+                        <a href="./recipes/bbq-salmon.html" class="button-card">Try Me</a>
+                    </div>
+                    <div class="recipe-wrap" id="recipe2-wrap">
+                        <img src="./images/chicken-soba.jpg" alt="BBQ salmon recipe picture" class="img-card">
+                        <p class="txt-card">Sake-poached chicken with soba noodles</p>
+                        <a href="./recipes/chicken-soba.html" class="button-card">Try Me</a>
+                    </div>
+                    <div class="recipe-wrap" id="recipe3-wrap">
+                        <img src="./images/crab-rice.jpg" alt="BBQ salmon recipe picture" class="img-card">
+                        <p class="txt-card">Spanner crab rice with edamame and tobiko</p>
+                        <a href="./recipes/crab-rice.html" class="button-card">Try Me</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
