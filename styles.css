@@ -2,18 +2,18 @@
     font-family: 'EB Garamond', serif;
 }
 
-#title {
+.title {
     border: 0.4rem solid;
     text-align: center;
     color: white;
     background-color: rgb(202, 0, 0);
 }
 
-#website-title {
+.website-title {
     font-family: 'Reggae One', cursive;
 }
 
-#website-subtitle {
+.website-subtitle {
     font-style: italic;
     margin-top: -30px;
 }
