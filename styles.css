@@ -137,7 +137,7 @@
     box-shadow: 0 0 2px 0 #ccc;
     object-fit: contain;
     height: 50%;
-    align-items: left;
+    text-align: left;
 }
 
 .steps-content {
@@ -154,14 +154,17 @@
     max-width: max-content; 
     word-wrap: break-word;
     text-align: justify;
-
 }
 
 .rcp-img {
-    margin-right: -150px;
     float: right;
-    max-width: fit-content;
     padding-top: 15px;
+}
+
+p {
+    font-size: large;
+    font-style: italic;
+    text-align: center;
 }
 
 .img-resize {
@@ -172,7 +175,7 @@
 .caption-resize {
     text-align: center;
     word-wrap: break-word;
-    width: 72%;
+    align-items: center;
 }
 
 a,
